@@ -533,4 +533,76 @@ figcaption {
   margin-right: 400px;
 }
 
+.section8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.devices {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  align-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.device {
+  width: 200px;
+  place-self: center;
+}
+
+footer {
+  background-color: #303442;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 20%;
+  padding-top: 100px;
+
+}
+
+.footer-contact-section {
+  display: flex;
+  gap: 200px;
+  padding-bottom: 40px;
+}
+
+.logo-qoute-section {
+  display: flex;
+  gap: 100px;
+}
+.footer-nav {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+footer .logo-main {
+  margin-bottom: 100px;
+}
+
+.footer-contact, .copyright, .footer-gray {
+  color: #bbbdc3;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+p.footer-gray {
+  width: 350px;
+}
+
+
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.copyright {
+  margin-bottom: 50px;
+}
